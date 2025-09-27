@@ -12,3 +12,10 @@ const headlessPs = chrome({
   headless: true
 })
 headlessPs.on('error', console.error)
+
+// Example 2: Headless Chrome (no screen needed)
+const headlessPs = chrome({
+  uri: 'https://github.com/',
+  headless: true
+})
+headlessPs.on('error', console.error)

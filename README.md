@@ -28,6 +28,7 @@ Returns a `child_process` object.
 Options:
 
 - `headless`: Run Chrome in headless mode (no GUI, perfect for servers)
+- `headless`: Run Chrome in headless mode (no GUI, perfect for servers)
 - `display`: Set process.env.DISPLAY to `:${opts.display}` for xvfb support
 - `proxy`: Proxy server settings
 - `dataDir`: Data dir, defaults to `/tmp/$RANDOM`
